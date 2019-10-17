@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="pref_retry_title">Wiederholungen</string>
+    <string name="pref_retry_summary">Dürfen Fragen wiederholt werden?</string>
+
+    <string name="pref_difficulty_selectable_title">Schwierigkeit einstellbar</string>
+	<string name="pref_difficulty_selectable_summary">Schwierigkeitsgrad kann eingestellt werden</string>
+	
+    <string name="pref_difficulty_title">Schwierigkeitsgrad</string>
+    <string name="pref_difficulty_dialog_title">Schwierigkeit wählen</string>
+	
+	<string name="pref_username_title">Name des Benutzers</string>
+	<string name="pref_username_title_summary">Ihr Name?</string>
+	
+</resources>

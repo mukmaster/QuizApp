@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.ihrprof.quizapp"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.ihrprof.quizapp.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.ihrprof.quizapp.Q1Activity"
+            android:label="@string/title_activity_q1" />
+        <activity
+            android:name="de.ihrprof.quizapp.FeedbackActivity"
+            android:label="@string/title_activity_feedback" />
+        <activity
+            android:name="de.ihrprof.quizapp.Q2Activity"
+            android:label="@string/title_activity_q2" />
+        <activity
+            android:name="de.ihrprof.quizapp.Q3Activity"
+            android:label="@string/title_activity_q3" />
+        <activity
+            android:name="de.ihrprof.quizapp.Q4Activity"
+            android:label="@string/title_activity_q4" />
+        <activity
+            android:name="de.ihrprof.quizapp.Q5Activity"
+            android:label="@string/title_activity_q5" />
+        <activity
+            android:name="de.ihrprof.quizapp.Q6Activity"
+            android:label="@string/title_activity_q6" />
+        <activity
+            android:name="de.ihrprof.quizapp.ListViewActivity"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name="de.ihrprof.quizapp.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="de.ihrprof.quizapp.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name="de.ihrprof.quizapp.UsageActivity" />
+    </application>
+
+</manifest>

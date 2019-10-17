@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+    
+    <string name="pref_retry_title">Retry</string>
+	<string name="pref_retry_summary">Questions can be repeatedly answered</string>
+    
+	<string name="pref_difficulty_selectable_title">Selectable Difficulty</string>
+	<string name="pref_difficulty_selectable_summary">Difficulty can be selected</string>
+	
+	<string name="pref_difficulty_title">Difficulty Level</string>
+	<string name="pref_difficulty_default">2</string>
+	<string name="pref_difficulty_dialog_title">Choose Difficulty</string>
+
+	<string name="pref_username_title">User name</string>
+		
+</resources>
+

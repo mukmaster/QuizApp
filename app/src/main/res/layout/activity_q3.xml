@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/styleQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.ihrprof.quizapp.Q3Activity" >
+
+    <TextView
+        android:id="@+id/q3question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q3_text"
+        android:textAppearance="@style/styleQTitel" />
+
+    <CheckBox
+        android:id="@+id/q3check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q3question"
+        android:layout_below="@+id/q3question"
+        android:layout_marginTop="15dp"
+        android:text="@string/q3_answer1" />
+
+    <CheckBox
+        android:id="@+id/q3check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q3question"
+        android:layout_below="@+id/q3check1"
+        android:text="@string/q3_answer2" />
+
+    <CheckBox
+        android:id="@+id/q3check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q3question"
+        android:layout_below="@+id/q3check2"
+        android:text="@string/q3_answer3" />
+
+    <CheckBox
+        android:id="@+id/q3check4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q3question"
+        android:layout_below="@+id/q3check3"
+        android:text="@string/q3_answer4" />
+
+    <CheckBox
+        android:id="@+id/q3check5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q3question"
+        android:layout_below="@+id/q3check4"
+        android:text="@string/q3_answer5" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/q3check5"
+        android:layout_alignRight="@+id/q3question"
+        android:onClick="btn_clicked"
+        android:text="@string/q3_continue" />
+
+</RelativeLayout>

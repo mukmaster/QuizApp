@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_questions_retry"
+        android:summary="@string/pref_retry_summary"
+        android:title="@string/pref_retry_title" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_difficulty_selectable"
+        android:summary="@string/pref_difficulty_selectable_summary"
+        android:title="@string/pref_difficulty_selectable_title" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_difficulty_default"
+        android:dependency="pref_difficulty_selectable"
+        android:dialogTitle="@string/pref_difficulty_dialog_title"
+        android:entries="@array/pref_difficulty_entries"
+        android:entryValues="@array/pref_difficulty_values"
+        android:key="pref_difficulty"
+        android:title="@string/pref_difficulty_title" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:key="pref_username"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_username_title" />
+
+</PreferenceScreen>

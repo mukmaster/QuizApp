@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/q2button"
+    style="@style/styleQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.ihrprof.quizapp.Q2Activity" >
+
+    <TextView
+        android:id="@+id/q2question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q2_text"
+        android:textAppearance="@style/styleQTitel" />
+
+    <EditText
+        android:id="@+id/q2answerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q2question"
+        android:layout_below="@+id/q2question"
+        android:layout_marginTop="37dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q2answerView"
+        android:layout_below="@+id/q2answerView"
+        android:layout_marginTop="17dp"
+        android:text="@string/q1_continue"
+        android:onClick="btn_clicked" />
+
+</RelativeLayout>

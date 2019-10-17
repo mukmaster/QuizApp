@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/styleQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.ihrprof.quizapp.Q5Activity" >
+
+    <TextView
+        android:id="@+id/q5question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q5_text" />
+
+    <NumberPicker
+        android:id="@+id/q5numberpicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q5question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/q5numberpicker"
+        android:layout_alignParentRight="true"
+        android:onClick="btn_clicked"
+        android:text="@string/q1_continue" />
+
+</RelativeLayout>

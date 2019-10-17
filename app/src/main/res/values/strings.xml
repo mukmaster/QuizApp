@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuizApp V0.3</string>
+    <string name="title_string">Test Your Knowledge</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About QuizApp</string>
+    <string name="btn1_string">Question 1</string>
+    <string name="btn2_string">Question 2</string>
+    <string name="btn3_string">Question 3</string>
+    <string name="btn4_string">Question 4</string>
+    <string name="btn5_string">Question 5</string>
+    <string name="btn6_string">Question 6</string>
+    <string name="scoretext">Correct Answers: </string>
+    <string name="score">0</string>
+    <string name="title_activity_q1">Question 1</string>
+    <string name="q1_text">What is the name for Android Version 4.1?</string>
+    <string name="q1_answer1">Honeycomb</string>
+    <string name="q1_answer2">Ice Cream Sandwich</string>
+    <string name="q1_answer3">Jelly Bean</string>
+    <string name="q1_answer4">KitKat</string>
+    <string name="q1_answer5">Lollipop</string>
+    <string name="q1_continue">Check in</string>
+    <string name="title_activity_q2">Question 2</string>
+    <string name="q2_text">What is the name for Android Version 2.2?</string>
+    <string name="q2_right_answer">Froyo</string>
+    <string name="title_activity_q3">Question 3</string>
+    <string name="q3_text">Which Android versions do not belong to Jelly Bean?</string>
+    <string name="q3_answer1">4.0</string>
+    <string name="q3_answer2">4.1</string>
+    <string name="q3_answer3">4.2</string>
+    <string name="q3_answer4">4.3</string>
+    <string name="q3_answer5">4.4</string>
+    <string name="q3_continue">Check in</string>
+    <string name="title_activity_q4">Question 4</string>
+    <string name="q4_text">Click the "Overflow Menu" in this screenshot!</string>
+    <string name="title_activity_q5">Question 5</string>
+    <string name="q5_text">Which API Version has Android V5 Lollipop?</string>
+    <string name="title_activity_q6">Question 6</string>
+    <string name="q6_text">Pick the name of Android Version 3.0!</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="backbtn_string">Next Question</string>
+    <string name="positive_feedback1">Excellent! Right Answer.</string>
+    <string name="positive_feedback2">Wow. You got it!</string>
+    <string name="negative_feedback1">Wrong Answer.</string>
+    <string name="negative_feedback2">Sorry. Try again later.</string>
+    <string name="positive_score">You just earned # point(s).</string>
+    <string name="negative_score">No additional points.</string>
+    <string name="hello_world">Hello</string>
+    <string name="title_activity_about">QuizApp</string>
+    <string name="about_text">This tiny app is a <i>DEMO</i> from the study course\n\n\"Development of Mobile Apps\".\n\n<small>Copyright: Helmut Roderus, 2016.</small></string>
+
+</resources>

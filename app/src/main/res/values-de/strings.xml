@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_string">Teste dein Wissen</string>
+    
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über diese App</string>   
+  
+    <string name="btn1_string">Frage 1</string>
+    <string name="btn2_string">Frage 2</string>
+    <string name="btn3_string">Frage 3</string>
+    <string name="btn4_string">Frage 4</string>
+    <string name="btn5_string">Frage 5</string>  
+    <string name="btn6_string">Frage 6</string> 
+    <string name="scoretext">Richtige Antworten: </string>
+    
+    <string name="title_activity_q1">Frage 1</string>
+    <string name="q1_text">Wie heißt die Android Version 4.1 noch?</string>
+    <string name="q1_continue">Weiter</string>
+
+    <string name="title_activity_q2">Frage 2</string>
+    <string name="q2_text">Wie lautet der Name für Android Version 2.2?</string>
+    
+    <string name="title_activity_q3">Frage 3</string>
+    <string name="q3_text">Welche Android Versionen gehören nicht zu Jelly Bean?</string>
+    
+    <string name="title_activity_q4">Frage 4</string>
+    <string name="title_activity_q5">Frage 5</string>
+    <string name="title_activity_q6">Frage 6</string> 
+    <string name="q6_text">Wähle den Namen von Android Version 3.0 aus!</string>
+    
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="backbtn_string">Nächste Frage</string>
+       
+    <string name="positive_feedback1">Ausgezeichnete Antwort!</string>
+    <string name="positive_feedback2">Genau richtig!</string>
+    <string name="negative_feedback1">Falsche Antwort.</string>
+    <string name="negative_feedback2">Leider falsch!</string>
+    <string name="positive_score"># Punkt(e) verdient.</string>
+    <string name="negative_score">Kein Punkt.</string>
+
+    <string name="about_text">Diese kleine App ist eine <i>DEMO</i> aus der Lehrveranstaltung\n\n\"Entwicklung mobiler Applikationen\".\n\n<small>Copyright: Helmut Roderus, 2016.</small></string>
+     
+</resources>

@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/styleQuestion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.ihrprof.quizapp.Q6Activity" >
+
+    <TextView
+        android:id="@+id/q6question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q6_text" />
+
+    <ListView
+        android:id="@+id/q6_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/q6question"
+        android:layout_below="@+id/q6question"
+        android:layout_marginTop="30dp"
+        tools:listitem="@android:layout/simple_list_item_1" >
+    </ListView>
+</RelativeLayout>
