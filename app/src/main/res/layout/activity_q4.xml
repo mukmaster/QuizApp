@@ -19,6 +19,9 @@
         android:layout_below="@+id/q4question"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Android Pic"
+        android:scaleType="fitXY"
         android:src="@drawable/screenshot" />
 
 </RelativeLayout>
