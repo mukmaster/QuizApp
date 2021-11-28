@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">QuizApp 2019</string>
+    <string name="app_name">QuizApp 2021</string>
     <string name="title_string">Test Your Knowledge</string>
     <string name="action_settings">Settings</string>
     <string name="action_about">About QuizApp</string>
@@ -48,7 +48,7 @@
     <string name="negative_score">No additional points.</string>
     <string name="hello_world">Hello</string>
     <string name="title_activity_about">QuizApp</string>
-    <string name="about_text">This tiny app is a <i>DEMO</i> from the study course\n\n\"Development of Mobile Apps\".\n\n<small>Copyright: Helmut Roderus, 2016.</small></string>
+    <string name="about_text">This tiny app is a <i>DEMO</i> from the study course\n\n\"Development of Mobile Apps\".\n\n<small>Copyright: Helmut Roderus, 2021.</small></string>
     <string name="pref_username_title_summary">Your Name, please?</string>
 
 </resources>

@@ -39,7 +39,7 @@
     <string name="positive_score"># Punkt(e) verdient.</string>
     <string name="negative_score">Kein Punkt.</string>
 
-    <string name="about_text">Diese kleine App ist eine <i>DEMO</i> aus der Lehrveranstaltung\n\n\"Entwicklung mobiler Applikationen\".\n\n<small>Copyright: Helmut Roderus, 2016.</small></string>
+    <string name="about_text">Diese kleine App ist eine <i>DEMO</i> aus der Lehrveranstaltung  \"Entwicklung mobiler Applikationen\".  <small>Copyright: Helmut Roderus, 2021.</small></string>
     <string name="q3_continue">Weiter</string>
     <string name="q4_text">Bitte das Overflow Menü anklicken</string>
     <string name="q5_text">Welche API Version hat Andoid V5 Lollipop?</string>
